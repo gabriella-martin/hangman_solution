@@ -44,7 +44,8 @@ class Hangman:
             if self.num_lives < 1:
                 print('No more lives left, you lose')
             else:
-                print(f'Wrong, you have {self.num_lives} lives left')
+                print(f'Sorry {letter} is not in the word')
+                print(f'You have {self.num_lives} lives left')
                 self.ask_letter()
         
         
